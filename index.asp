@@ -25,7 +25,7 @@ function MM_swapImage() { //v3.0
 //-->
 </SCRIPT>
 <title></title>
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <script src="Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
 <style type="text/css">
 <!--
@@ -89,7 +89,7 @@ AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/
 <img src="images/c1.jpg" alt=""><img src="images/c2.jpg" alt=""><img src="images/c3.jpg" alt=""><img src="images/c4.jpg" alt="">
 </div>
 <br />
-<div class="zhanshi"><p>����չʾ</p></div>
+<div class="zhanshi"><p>案例展示</p></div>
 
 <div class="box1">
 <img style="margin-right:10px" src="images/zhanshi.jpg" alt="">
@@ -108,13 +108,13 @@ AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/
 <br />
 <br />
 <p><img src="images/location.png" alt=""></p>
-<p>�����к������¸���·��ɽ��ѧ���ҿƼ�԰B��1202</p>
-<p>�������������վ·1�Ŷ�վ�ۺ�¥��¥A��3B51</p>
+<p>广州市海珠区新港西路中山大学国家科技园B座1202</p>
+<p>广州市天河区东站路1号东站综合楼三楼A区3B51</p>
 <br />
 <p><img src="images/tele.png" alt="">
 </p>
-<p>24Сʱ��������:400-622-1350&nbsp;&nbsp;�绰:020-83800826</p>
+<p>24小时服务热线:400-622-1350&nbsp;&nbsp;电话:020-83800826</p>
 <br />
 <div class="bg">
-<p>Copyright@2013-2015 ���ݽ�������Ϣ�Ƽ����޹�˾ ��Ȩ����&copy;</p>
+<p>Copyright@2013-2015 广州锦倍塔信息科技有限公司 版权所有&copy;</p>
 </div>
