@@ -25,7 +25,7 @@ function MM_swapImage() { //v3.0
 //-->
 </SCRIPT>
 <title></title>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <script src="Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
 <style type="text/css">
 <!--
