@@ -1,0 +1,109 @@
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script language=javascript src="dialog.js"></script>
+
+<script Language=javascript>
+document.write ("<link href='../language/" + AvailableLangs["Active"] + ".css' type='text/css' rel='stylesheet'>");
+document.write ("<link href='dialog.css' type='text/css' rel='stylesheet'>");
+
+document.write ("<title>"+lang["DlgCitation"]+"</title>");
+
+
+var objWindow;
+
+var oRange = dialogArguments.eWebEditor.document.selection.createRange();
+var sType = dialogArguments.eWebEditor.document.selection.type;
+var oSel;
+
+
+
+function InitDocument(){
+	AvailableLangs.TranslatePage(document);
+	adjustDialog();
+}
+
+
+
+function ok(){
+	var sValue = d_value.value;
+	var sType = d_type.options[d_type.selectedIndex].value;
+	var html = "";
+	var url = "";
+
+	if(sValue){
+		switch(sType){
+		case "pm":
+			url = "linkref.asp?access_num=" + sValue + "&link_type=MED";
+			html = "[<A id=eWebEditor_TempElement_Citation class=red href=\"" + url + "\" target=_blank>PubMed</A>]";
+			break;
+		case "isi":
+			url = "linkref.asp?access_num=" + sValue + "&link_type=ISI";
+			html = "[<A id=eWebEditor_TempElement_Citation class=red href=\"" + url + "\" target=_blank>ISI</A>]";
+			break;
+		case "doi":
+			url = "linkref.asp?access_num=" + sValue + "&link_type=DOI";
+			html = "[<A id=eWebEditor_TempElement_Citation class=red href=\"" + url + "\" target=_blank>DOI</A>]";
+			break;
+		case "cbmd":
+			url = "linkref.asp?access_num=" + sValue + "&link_type=CBMD";
+			html = "[<A id=eWebEditor_TempElement_Citation class=red href=\"" + url + "\" target=_blank>CBMD</A>]";
+			break;
+		}
+		dialogArguments.insertHTML(html);
+
+		var oTempElement = dialogArguments.eWebEditor.document.getElementById("eWebEditor_TempElement_Citation");
+		oTempElement.setAttribute("href",url);
+		oTempElement.removeAttribute("id");
+	
+	}
+
+	window.returnValue = null;
+	window.close();
+}
+
+</script>
+
+</HEAD>
+
+<body onload="InitDocument()">
+<table border=0 cellpadding=0 cellspacing=5 id=tabDialogSize><tr><td>
+
+
+
+<table border=0 cellpadding=0 cellspacing=0 align=center>
+<tr>
+	<td>
+	<fieldset>
+	<table border=0 cellpadding=5 cellspacing=0 width="100%">
+	<tr><td>
+
+
+	<table border=0 cellpadding=0 cellspacing=2 width="100%">
+	<tr>
+		<td noWrap>
+			<select id=d_type size=1 style="width:120px">
+			<option value='pm' lang=DlgCitationPM></option>
+			<option value='isi' lang=DlgCitationISI></option>
+			<option value='doi' lang=DlgCitationDOI></option>
+			<option value='cbmd' lang=DlgCitationCBMD></option>
+			</select>
+		</td>
+		<td noWrap><input type=text id=d_value size=30 value=""></td>
+	</tr>
+	</table>
+
+
+	</td></tr>
+	</table>
+	</fieldset>
+	</td>
+</tr>
+<tr><td height=5></td></tr>
+<tr><td noWrap align=right><input type=submit value='' id=Ok onclick="ok()" lang=DlgBtnOK>&nbsp;&nbsp;<input type=button value='' onclick="window.close();" lang=DlgBtnCancel></td></tr>
+</table>
+
+
+</td></tr></table>
+</BODY>
+</HTML>

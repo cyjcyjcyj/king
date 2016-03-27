@@ -1,0 +1,207 @@
+body{
+	margin-left:0px;
+	margin-top:0px;
+	text-align:center;
+}
+body,div,td,input,span{
+	font-family: "ËÎÌו","Times New Roman", Times, serif;
+	font-size:12px;
+}
+textarea,div,img,span{
+	border:0px;
+}
+input{
+	margin:0px;
+	border:1px;
+}
+div{
+	margin-right: auto;
+	margin-left: auto;
+}
+#bodyposition{
+	width:743px; 
+	height:auto;
+	position: relative; 
+	z-index:0; 
+	top:0px; 
+	left:0px;
+}
+#notepadmain{
+	position:absolute;
+	left:0px; 
+	top:0px;
+	width:743px;
+}
+#notepadr1c1{
+	left:0px; 
+	top:0px;
+	width:743px; 
+	height:22px;
+	z-index:1; 
+	visibility:visible;
+	background-image:url(notepad/notepad_r1_c1.jpg);
+	cursor:pointer;
+}
+#notepadtitle{
+	position:absolute;
+	left:24px; 
+	top:7px;
+	width:362px; 
+	height:15px;
+	z-index:7; 
+	text-align:left; 
+	color:#FFFFFF; 
+	font-weight:bold;
+	cursor:pointer;
+}
+#notepadbutton{
+	position:absolute;
+	left:721px; 
+	top:6px;
+	width:15px; 
+	height:13px;
+	z-index:6;
+}
+#notepadr2c1{
+	left:0px; 
+	top:22px;
+	width:743px; 
+	height:22px;
+	z-index:2; 
+	visibility:visible; 
+	background:#D4D0C7;
+}
+#notepadtool{
+	position:absolute;
+	left:9px; 
+	top:22px;
+	width:729px;
+	z-index:11; 
+	visibility:visible;
+	text-align:left;
+}
+#filepath{
+	border:0px;
+	width:500px;
+	color:#0000FF;
+	background:#EFEFEF;
+}
+#readfile{
+	width:40px;
+	height:17px;
+	border:1px #D4D0C7 solid;
+	background-color:#D4D0C7;
+	cursor:pointer;
+}
+#notepadr3c1{
+	left:0px; 
+	top:44px;
+	width:6px; 
+	height:468px;
+	z-index:3; 
+	float: left; 
+	background-image:url(notepad/notepad_r3_c1.gif);
+}
+#notepadcontent{
+	width:730px; 
+	height:459px;
+	z-index:9; 
+	text-align:left; 
+	float:left;
+}
+#notepadcontent textarea{
+	width:729px;
+	height:465px;
+	font-family:"ËÎÌו","Times New Roman", Times, serif;
+	line-height:110%;
+}
+#notepadr3c3{
+	left:737px; 
+	top:44px;
+	width:6px; 
+	height:468px;
+	z-index:4;
+	float: right;
+	background-image:url(notepad/notepad_r3_c3.gif);
+}
+#notepadr4c1{
+	left:0px;
+	width:743px; 
+	height:22px;
+	z-index:5;
+	clear: both;
+	background-image:url(notepad/notepad_r4_bj.gif);
+}
+#encoding{
+	font-size:10px;
+	border:1px #999999 solid;
+	font-family:"Times New Roman", Times, serif;
+}
+
+#aboutmain{
+	position:relative;
+	top:170px;
+	width:419px;
+}
+#aboutr1c1{
+	left:0px; 
+	top:0px;
+	width:419px; 
+	height:21px;
+	visibility:visible;
+	text-align:left;
+	font-weight:bold;
+	color:#FFFFFF;
+	background-image:url(notepad/about_r1_c1.jpg);
+}
+#aboutr3c1{
+	left:0px; 
+	top:21px;
+	width:419px; 
+	height:68px;
+	visibility:visible;
+	background-color:#D4D0C7;
+	background-image:url(notepad/about_r5_c1_bj.gif);
+}
+#aboutr4c1{
+	left:0px; 
+	top:89px;
+	width:419px; 
+	height:4px;
+	visibility:visible;
+	background-image:url(notepad/about_r4_c1.jpg);
+}
+#aboutr5c1{
+	left:0px; 
+	top:93px;
+	width:419px;
+	height:50px;
+	visibility:visible;
+	background-color:#D4D0C7;
+	background-image:url(notepad/about_r5_c1_bj.gif);
+}
+#aboutr6c1{
+	left:0px; 
+	width:419px;
+	height:4px;
+	visibility:visible;
+	background-image:url(notepad/about_bottom.gif);
+}
+#okbutton{
+	position:absolute;
+	left:332px;
+	top:110px;
+	width:75px;
+	height:23px;
+	background-image:url(notepad/okbutton.gif);
+}
+#closebutton{
+	position:absolute;
+	left:398px;
+	top:5px;
+	width:16px;
+	height:14px;
+}
+#content_change{
+	font-weight:normal;
+}

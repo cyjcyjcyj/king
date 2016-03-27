@@ -1,0 +1,152 @@
+a{color:#000080;text-decoration:none;}
+a:hover{color:#ff3333;text-decoration:underline}
+
+body{
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:1px;
+	margin-bottom:0px;
+	padding: 0px;
+	text-align: center;
+	background:#FFFFFF;
+}
+form,span,div,select{
+	margin:0px;
+	padding:0px;
+}
+body,div,td,p,span,select{
+	font-family: "ËÎÌו","Times New Roman", Times, serif;
+	font-size:12px;
+	color:#000090;
+}
+div,td,span{
+	word-break:break-all;
+}
+div{
+	margin-right: auto;
+	margin-left: auto;
+}
+input{
+	font-family: "ËÎÌו","Times New Roman", Times, serif;
+}
+img{
+	border:0px;
+}
+.LTRBorder{
+	border-left:1px #ffffff solid;
+	border-top:1px #ffffff solid;
+	border-right:1px #ffffff solid;
+}
+.LTBorder{
+	border-left:1px #F3F3F3 solid;
+	border-right:1px #999999 solid;
+}
+#header{
+	width: 770px;
+	height: 79px;
+	background:#D4D0C8;
+	border-bottom:1px #F3F3F3 solid;
+}
+#footer{
+	clear: both;
+	height: 73px;
+	width: 770px;
+	background-color:#FFFFFF;
+}
+#foot_table{
+	height: 24px;
+	width: 770px;
+}
+#foot_table td{
+	background:#D4D0C8;
+}
+#content{
+	float: inherit;
+	width: 770px;
+	border-top:1px #999999 solid;
+	background-color:#FFFFFF;
+}
+#bodymain{
+	width: 772px;
+	border:1px #999999 solid;
+}
+#leftlan{
+	left:0px;
+	top:0px;
+	width:230px;
+	height:auto;
+}
+#rightlan{
+	left:0px;
+	top:0px;
+	width:540px;
+	height:auto;
+}
+#top1{
+	left:0px;
+	top:0px;
+	width:770px;
+	height:35px;
+	border-bottom:1px #999999 solid;
+}
+#top2{
+	left:0px;
+	top:35px;
+	width:770px;
+	height:24px;
+	border-top:1px #FFFFFF solid;
+	border-bottom:1px #999999 solid;
+	text-align:left;
+}
+#top3{
+	left:0px;
+	top:59px;
+	width:770px;
+	height:17px;
+	border-top:1px #FFFFFF solid;
+	border-bottom:1px #999999 solid;
+	text-align:left;
+}
+.button{
+	width:63px;
+	height:20px;
+	border:none;
+	color:#333333;
+	background:#F6F6F6 url(button.gif) 0 0 no-repeat;
+	cursor:hand;
+	vertical-align:middle;
+}
+._rename{
+	font-family:"ËÎÌו", "Times New Roman", Times, serif;
+	font-size:12px;
+	border:1px #666666 solid;
+	width:130px;
+}
+.imgbutton{
+	width:32px;
+	height:32px;
+	border:solid 1px #D4D0C8;
+	cursor:hand;
+}
+.imgbt{
+	border:solid 1px;
+	border-color:#FFFFFF #999999 #999999 #FFFFFF;
+	cursor:hand;
+}
+.filetdr{
+	border-right:1px #EAEAEA solid;
+}
+.filetdb{
+	border-right:1px #EAEAEA solid;
+	border-bottom:1px #EAEAEA solid;
+}
+.filetdb2{
+	border-bottom:1px #EAEAEA solid;
+}
+#selectpage{
+	border:1px #CCCCCC solid;
+}
+.secbutton{
+	border:1px #999999 solid;
+	background-color:#FFFFFF;
+}

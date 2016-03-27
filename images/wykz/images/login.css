@@ -1,0 +1,143 @@
+body,p,th,td,input,select,textarea{
+	font-family: "ËÎÌו"; "Times New Roman", Times, serif;;
+	font-size:12px;
+	color:#111111;
+}
+body{
+	margin: 0px;
+	padding: 0px 10px 0px 10px;
+	text-align: center;
+	background-color:#FFF;
+}
+
+form{
+	margin:0;
+	padding:0;
+}
+
+div{
+	position:absolute;
+	visibility:visible;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#Content{
+	position: relative;
+	border:0px;
+	z-index:0;
+	top:70px;
+	left:0px;
+}
+#Content a:link,#Content a:visited{
+	color:#2E67C7;
+	text-decoration:none;
+}
+#Content a:hover,#Content a:active{
+	color:#F50;
+	text-decoration:underline;
+}
+#LoginForm{
+	position:relative;
+	float: inherit;
+	width:425px;
+	top:0px; left:0px;
+	padding-top:66px;
+	text-align:center;
+	background:transparent url(title_login_2.gif) 0 0 no-repeat;
+}
+
+#LoginFormTop{
+	position: relative;
+	margin:0 auto;
+	width:340px;
+	height:15px;
+	background:#F6F6F6 url(login_form_top2.gif) 0 0 no-repeat;
+}
+#LoginFormBottom{
+	margin:0 auto;
+	width:340px;
+	height:9px;
+	text-align:left;
+}
+.StandardMode #LoginFormBottom{
+	position: relative;
+	width:200px !important;
+	width /**/:340px;
+	padding-left:140px;
+	background:#F6F6F6 url(lgoin_form_bottom.gif) 0 0 no-repeat;
+}
+
+#LoginForm form{
+	background-color:#F6F6F6;
+	width:340px;
+	margin:0 auto;
+	padding:5px 0 0;
+	text-align:center;
+	background:#F6F6F6 url(login_form_body2.gif) 0 0 repeat-y;
+}
+#LoginForm.SecuredMode form{
+	background:#F6F6F6 url(lgoin_form_body_2.gif) 0 0 repeat-y;
+}
+
+#LoginForm label{
+	display:block;
+	width:230px;
+	text-align: left;
+	margin:0 auto 15px;
+	cursor:default;
+}
+#LoginForm label input{
+	width:150px;
+	border:1px #666666 solid;	
+}
+
+#LoginForm label a{
+	margin-left:5px;
+}
+#LoginForm label img{
+	vertical-align:bottom;
+}
+div.Submit{
+	position: relative;
+	text-align: center;
+	margin:15px 0 0 0px;
+}
+div.Submit input{
+	width:130px;
+	height:35px;
+	border:none;
+	color:#FFF;
+	font-weight:bold;
+	letter-spacing:1em;
+	background:#F6F6F6 url(login_submit.gif) 0 0 no-repeat;
+	cursor:hand;
+	vertical-align:middle;
+}
+#CheckCodeImg{
+	z-index:3;
+	top:158px;
+	left:233px;
+	width:60px;
+	height:15px;
+}
+#CheckCodeMsg{
+	z-index:2;
+	top:158px;
+	left:233px;
+	width:60px;
+	height:15px;
+}
+#FooterMSG{
+	top:270px;
+	left:16px;
+	width:394px;
+	height:auto;
+}
+#LoginMSG{
+	top:50px;
+	left:33px;
+	width:364px;
+	height:20px;
+	color:#FF0000;
+}

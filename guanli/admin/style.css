@@ -1,0 +1,89 @@
+body {
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	background-color: #ffffff;
+	margin:0px;
+	SCROLLBAR-HIGHLIGHT-COLOR: buttonface;
+	SCROLLBAR-3DLIGHT-COLOR: buttonhighlight;
+	SCROLLBAR-TRACK-COLOR: #eeeeee;
+	SCROLLBAR-DARKSHADOW-COLOR: buttonshadow;
+	color: #336699;
+
+
+}
+
+td {
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	color: #336699;
+
+}
+
+th {
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	color: #336699;
+
+}a:link {
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	color: #00488A;
+	text-decoration: none;
+}
+a:visited {
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	color: #00488A;
+	text-decoration: none;
+}
+a:hover {
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	color: #FF3300;
+	text-decoration: none;
+}
+.arial {
+	font-family: "Geneva", "Arial", "Helvetica", "sans-serif";
+	font-size: 10px;
+	text-decoration: none;
+}
+.font {
+	font-size: 12px;
+	line-height: 22px;
+	color: #336699;
+
+}
+
+.input {
+	FONT: 12px "Geneva", "Arial", "Helvetica", "sans-serif";
+	COLOR: #000000;
+	BACKGROUND-COLOR: #FFFFFF;
+	text-decoration: none;
+	width: 99%;
+
+
+
+}
+.bt {
+	font-size: 10px;
+	text-decoration: none;
+	font-family: "Geneva", "Arial", "Helvetica", "sans-serif";
+	color: #000000;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	border-left-color: #FFFFFF;
+	background-color: E2F4FE;
+
+
+
+
+}
